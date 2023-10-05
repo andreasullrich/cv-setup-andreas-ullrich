@@ -3,8 +3,6 @@
 *:after {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 body {
@@ -80,5 +78,5 @@ nav a:hover {
 }
 
 nav a:active {
-  color: rgb(158, 158, 158);
+  color: rgb(255, 255, 255);
 }
