@@ -33,7 +33,7 @@ h6 {
 }
 
 .main {
-  padding: 30px 20px;
+  padding: 30px 30px;
   max-width: fit-content;
   margin: auto;
 }
@@ -42,18 +42,17 @@ main > * + * {
   margin-top: 48px;
 }
 
-article {
-  border-bottom: 2px solid black;
+main > article + article {
+  border-top: 2px solid black;
 }
 
 .header {
-  text-align: center;
   background: radial-gradient(
     circle at 10% 20%,
     rgb(0, 0, 0) 0%,
     rgb(64, 64, 64) 90.2%
   );
-  padding: 30px 14px;
+  padding: 30px 30px;
   border-radius: 0px 0px 2px 2px;
 }
 
@@ -62,6 +61,8 @@ nav {
   padding: 0px 15px 5px 10px;
   display: inline-block;
   border-radius: 10px 0px 10px 0px;
+  width: 100%;
+  text-align: center;
 }
 
 nav a {
