@@ -5,16 +5,24 @@
   font-family: "Lato", sans-serif;
 }
 
+html {
+  font-size: 18px;
+}
+
 body {
-  margin: 0px;
+  margin: 0rem;
   background-color: rgba(83, 78, 68, 0.068);
 }
 
 .header p {
   color: white;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.966);
-  font-size: 30px;
-  text-shadow: 0px 0px 10px rgba(55, 0, 255, 0.281);
+  text-shadow: 0.188rem 0.188rem 0.313rem rgba(0, 0, 0, 0.966);
+  font-size: 1.7rem;
+  text-shadow: 0rem 0rem 0 rgba(55, 0, 255, 0.281);
+  position: relative;
+  right: 1.25rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .header p::after {
@@ -23,9 +31,13 @@ body {
 
 h1 {
   color: white;
-  font-size: 40px;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.966);
-  text-shadow: 0px 0px 10px rgba(55, 0, 255, 0.281);
+  font-size: 3em;
+  text-shadow: 0.188rem 0.188rem 0.313rem rgba(0, 0, 0, 0.966);
+  text-shadow: 0rem 0rem 0.625rem rgba(55, 0, 255, 0.281);
+  position: relative;
+  right: 1.25rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 h1,
@@ -39,21 +51,23 @@ h6 {
 
 article h2 {
   position: relative;
-  right: 20px;
+  right: 1.25rem;
 }
 
 .main {
-  padding: 30px 60px;
+  padding: 0.875rem 3.75rem;
   max-width: fit-content;
-  margin: auto;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 main > * + * {
-  margin-top: 48px;
+  margin-top: 3rem;
+  margin: auto;
 }
 
 main > article + article {
-  border-top: 2px solid black;
+  border-top: 0.125rem solid black;
 }
 
 .header {
@@ -62,33 +76,34 @@ main > article + article {
     rgb(0, 0, 0) 0%,
     rgb(64, 64, 64) 90.2%
   );
-  padding: 30px 60px;
-  border-radius: 0px 0px 2px 2px;
-  position: relative;
-  right: 20px;
+  padding: 1.875rem 3.75rem;
+  border-radius: 0rem 0rem 0.125rem 0.125rem;
 }
 
 .hire-me {
   position: absolute;
-  right: 30px;
-  top: 30px;
-  padding: 6px;
+  right: 3.75rem;
+  top: 1.75rem;
+  padding: 0.375rem;
   background-color: white;
-  border-radius: 6px 1px 6px 1px;
+  border-radius: 0.375rem 0.063rem 0.375rem 0.063rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 nav {
-  margin-top: 45px;
-  padding: 0px 15px 5px 10px;
+  margin-top: 2.813rem;
+  padding: 0rem 0.938rem 0.313rem 0.625rem;
   display: inline-block;
-  border-radius: 10px 0px 10px 0px;
+  border-radius: 0.625rem 0rem 0.625rem 0rem;
   width: 100%;
   text-align: center;
 }
 
 nav a {
-  margin-left: 10px;
-  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.699);
+  margin-left: 0.625rem;
+  text-shadow: 0.125rem 0.125rem 0.313rem rgba(255, 255, 255, 0.699);
+  font-size: 1.1rem;
 }
 
 nav a:link {
@@ -116,13 +131,13 @@ nav a:visited {
 #soft-skills {
   position: relative;
   left: 10%;
-  top: 0px;
+  top: 0rem;
   display: inline-block;
 }
 
 #technical-skills {
   position: relative;
-  top: 0px;
+  top: 0rem;
   left: 30%;
   display: inline-block;
 }
@@ -135,9 +150,9 @@ footer {
     rgb(102, 101, 101) 0%,
     rgb(0, 0, 0) 90.2%
   );
-  padding: 8px 13px;
-  border-radius: 0px 0px 2px 2px;
+  padding: 0.5rem 0.813rem;
+  border-radius: 0rem 0rem 0.125rem 0.125rem;
   position: fixed;
   width: 100%;
-  bottom: 0px;
+  bottom: 0rem;
 }
