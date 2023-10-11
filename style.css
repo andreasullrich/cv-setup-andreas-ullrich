@@ -69,6 +69,12 @@ main > article + article {
   border-top: 0.125rem solid black;
 }
 
+section > header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
 .header {
   background: radial-gradient(
     circle at 10% 20%,
@@ -95,7 +101,10 @@ main > article + article {
 nav {
   margin-top: 2.813rem;
   padding: 0rem 0.938rem 0.313rem 0.625rem;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 6rem;
   border-radius: 0.625rem 0rem 0.625rem 0rem;
   text-align: center;
 }
@@ -176,5 +185,23 @@ footer {
 @media screen and (min-width: 768px) {
   html {
     font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    margin-top: 2.813rem;
+    padding: 0rem 0.938rem 0.313rem 0.625rem;
+    display: inline-block;
+    border-radius: 0.625rem 0rem 0.625rem 0rem;
+    text-align: center;
+    height: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section > header {
+    display: flex;
+    flex-direction: column;
   }
 }
